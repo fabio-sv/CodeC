@@ -8,6 +8,7 @@
 	};
 	
 	int main (){
+		// ponteiro = (int *) malloc(tamanho * sizeof(int));
 		struct cadastro *vcad = (struct cadastro*) malloc(10*sizeof(struct cadastro));
 		strcpy(vcad[0].nome, "Maria");
 		vcad[0].idade = 30;
@@ -29,4 +30,5 @@
 		
 		return 0;	
 }
+
 	
