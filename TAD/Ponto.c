@@ -17,7 +17,7 @@ Ponto* Ponto_cria(float x, float y){
 	return p;
 }
 //Libera a memoria
-void Pnto_libera(Ponto*p){
+void Ponto_libera(Ponto*p){
 	free(p);
 }
 //Acessando o conteudo do Ponto
@@ -39,7 +39,7 @@ int Ponto_atribui(Ponto* p, float x, float y){
 	
 	return 1;
 }	
-//Calcula a dist‚ncia entre dois pontos
+//Calcula a dist√¢ncia entre dois pontos
 float Ponto_Distancia (Ponto* p1, Ponto* p2){
 	if(p1 == NULL || p2 == NULL){
 		return -1;
